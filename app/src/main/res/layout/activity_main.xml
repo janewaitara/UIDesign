@@ -9,7 +9,6 @@
     tools:context=".MainActivity">
 
 
-
     <android.support.v7.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -33,7 +32,6 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:orientation="vertical">
-
 
 
                     <LinearLayout
@@ -66,10 +64,10 @@
                                 android:gravity="center"
                                 android:paddingLeft="16dp"
                                 android:paddingTop="8dp"
-                                android:textSize="12dp"
-                                android:textAllCaps="false"
                                 android:text="Home"
-                                android:textColor="#ffffff" />
+                                android:textAllCaps="false"
+                                android:textColor="#ffffff"
+                                android:textSize="12dp" />
 
                             <Button
                                 android:id="@+id/button_search"
@@ -82,10 +80,10 @@
                                 android:gravity="center"
                                 android:paddingLeft="16dp"
                                 android:paddingTop="8dp"
-                                android:textSize="12dp"
-                                android:textAllCaps="false"
                                 android:text="search"
-                                android:textColor="#ffffff" />
+                                android:textAllCaps="false"
+                                android:textColor="#ffffff"
+                                android:textSize="12dp" />
 
                             <Button
                                 android:id="@+id/button_notifications"
@@ -94,31 +92,25 @@
                                 android:layout_weight="1"
                                 android:background="#00000a"
                                 android:clickable="true"
-                                android:textSize="12dp"
-                                android:textAllCaps="false"
                                 android:drawableTop="@drawable/ic_notifications"
                                 android:gravity="center"
                                 android:paddingLeft="16dp"
                                 android:paddingTop="8dp"
                                 android:text="Notification"
-                                android:textColor="#ffffff" />
+                                android:textAllCaps="false"
+                                android:textColor="#ffffff"
+                                android:textSize="12dp" />
 
 
                         </LinearLayout>
 
-
                     </android.support.v7.widget.CardView>
-
-
+                    
                 </LinearLayout>
-
 
             </android.support.v7.widget.CardView>
         </RelativeLayout>
 
-
     </android.support.v7.widget.CardView>
-
-
 
 </LinearLayout>
